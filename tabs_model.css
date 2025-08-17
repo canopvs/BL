@@ -14,7 +14,7 @@ body {
 .top-nav {
   height:auto;
   color:var(--textColor);
-  font-family:'Anonymous Pro', monospace;
+  font-family:var(--stfont);
   font-size:10px;
   text-transform:uppercase;
   border-bottom:1px solid var(--bw5);
@@ -45,7 +45,7 @@ body {
   overflow-y:hidden;
 margin-left:auto;
   margin-right:55px;
-  font-family:'Poppins',sans-serif;
+  font-family:var(--font);
   font-size:12px;
   color:var(--textColor);
 }
@@ -73,7 +73,7 @@ margin-left:auto;
   padding:10px;
   vertical-align:middle;
   color:var(--textColor);
-  font-family:'Poppins',sans-serif;
+  font-family:var(--font);
   font-size:12px;
   text-align:center;
   align-content:center;
@@ -96,12 +96,12 @@ margin-left:auto;
 }
 
 .note-title {
-  font-family:'Poppins',sans-serif;
+  font-family:var(--font);
   color:var(--textColor);
   font-size:24px;
-  background-color:color-mix(in srgb, var(--c1) 20%, transparent);
+  background-color:color-mix(in srgb, var(--co1) 20%, transparent);
   padding:4px 10px;
-  border-right:3px solid var(--c1)
+  border-right:3px solid var(--co1)
 }
 
 bb {
@@ -113,14 +113,14 @@ bb {
 }
 
 .note-infos {
-  font-family:'Anonymous Pro', monospace;
+  font-family:var(--stfont);
   font-size:9px;
   padding-left:16px;
   color:var(--textColor)
 }
 
 .middle-part {
-  font-family:'Anonymous Pro',monospace;
+  font-family:var(--stfont);
   color:var(--textColor);
   font-size:12px;
   margin-top:20px;
@@ -147,7 +147,7 @@ hi {
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
   background-clip:text;
-  font-family:'Anonymous Pro',monospace;
+  font-family:var(--stfont);
   text-transform:uppercase;
 }
 
@@ -160,7 +160,7 @@ hi {
  margin-top:15px;
   border-radius:5px;
   color:var(--textColor);
-  font-family:'Poppins', sans-serif;
+  font-family:var(--font);
   font-size:12px;
   padding:20px 30px;
   overflow-y:auto;
@@ -178,7 +178,7 @@ hi {
   display:flex;
   flex-direction:row;
   padding:7px 25px;
-  font-family:'Anonymous Pro', monospace;
+  font-family:var(--stfont);
   font-size:8px;
   justify-content:space-evenly;
 }
@@ -199,7 +199,7 @@ hi {
   width:30%;
   height:auto;
   color:var(--bw2);
-  font-family:'Poppins',sans-serif;
+  font-family:var(--font);
   font-weight:900;
   font-size:12px;
   position:relative;
@@ -272,13 +272,14 @@ input[name="tabs"] {
 
 .datechrono {
   color:transparent;
-  background:var(--g);
+  background:var(--gradient3);
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
   background-clip:text;
   font-size:14px;
   font-weight:bold;
   line-height:20px;
+  font-family:var(--titlefont2);
 }
 
 .datechrono i {
@@ -326,7 +327,7 @@ input[name="tabs"] {
 }
 
 tag2 {
-  font-family:'Anonymous Pro',monospace;
+  font-family:var(--stfont);
   font-size:9px;
   text-transform:uppercase;
   border:1px solid var(--textColor);
@@ -408,7 +409,7 @@ details a {
   text-decoration:none;
   font-weight:800;
   color:transparent;
-  background:var(--g);
+  background:var(--gradient3);
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
   background-clip:text;
@@ -421,7 +422,7 @@ details a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background:var(--g);
+  background:var(--gradient3);
 }
 
 ::-webkit-scrollbar-track {
@@ -431,12 +432,8 @@ details a {
 /*** NE PAS C/C ***/
 
 :root {
- --c1:red;
-  --c2:orange;
-  --c3:yellow;
-  --tc1:color-mix(in srgb(var(--c1)), transparent 85%);
-    --g:linear-gradient(45deg,var(--c1), var(--c2), var(--c3));
-  --grey:#373737;
+  --tc1:color-mix(in srgb(var(--co1)), transparent 85%);
+  --grey:light-dark(#DEDEDE,#373737);
   --bwava:rgba(0, 0, 0, 0.6);
 }
   
