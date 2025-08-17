@@ -132,7 +132,7 @@ bb {
     display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-row:1fr 1fr 1fr 1fr;
-  border-bottom:1px solid var(--grey);
+  border-bottom:1px solid var(rey);
   padding:10px 0;
 }
 
@@ -143,7 +143,7 @@ bb {
 hi {
   font-weight:bolder;
   color:transparent;
-  background:var(--g);
+  background:var(--gradient3);
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
   background-clip:text;
@@ -169,7 +169,7 @@ hi {
 .notes-tab-links {
   width:274px;
   height:auto;
-  background:var(--g);
+  background:var(--gradient3);
   position:relative;
   margin-left:auto;
   margin-right:auto;
@@ -218,13 +218,13 @@ hi {
 }
 
 .pages-note label:hover {
-  background:var(--g);
+  background:var(--gradient3);
   color:var(--bw2);
   transition:ease-in-out .3s;
 }
 
 .pages-note label:active {
-  background:var(--g);
+  background:var(--gradient3);
   color:var(--bw2);
 }
 
@@ -249,7 +249,7 @@ input[name="tabs"] {
 #noteTG03:checked ~ .pages-note label[for="noteTG03"],
 #noteTG04:checked ~ .pages-note label[for="noteTG04"],
 #noteTG05:checked ~ .pages-note label[for="noteTG05"] {
-  background: var(--g);
+  background: var(--gradient3);
   color: #fff;
   font-weight:700;
 }
@@ -320,7 +320,7 @@ input[name="tabs"] {
 .name-link {
   text-transform:uppercase;
   font-weight:900;
-   background:var(--g);
+   background:var(--gradient3);
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
   background-clip:text;
