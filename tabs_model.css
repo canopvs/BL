@@ -579,8 +579,144 @@ details a {
 /*** NE PAS C/C ***/
 
 :root {
-  --tc1:color-mix(in srgb(var(--co1)), transparent 85%);
   --grey:light-dark(#DEDEDE,#373737);
   --bwava:rgba(0, 0, 0, 0.6);
+  :root {
+    color-scheme: light;
+    --header: url(https://i.imgur.com/faKP465.png);
+    --fond: url(https://i.imgur.com/CLn1Csm.jpeg);
+    --patternfond: url(https://i.imgur.com/cMyO2WD.jpeg);
+    --newMsg: url(https://unravelgraph.github.io/myFiles/comic-speech-bubble.svg);
+    --neutral: #efefef;
+    --neutralDark: #fefefe;
+    --neutralDarker: #fefefe;
+    --transp2: #ffffffc2;
+    --transp3: #2f2f2f29;
+    --transp5: #e9e9e9d9;
+    --transp6: #2f2f2f66;
+    --transp7: #ffffffeb;
+    --transp8: #d1cccc;
+    --transp9: #ffffff5e;
+    --transp10: #f2efefb5;
+    --bw1: #e9e9e9;
+    --bw2: #f4f4f4;
+    --bw3: #f2f2f2;
+    --bw4: #fafafa;
+    --bw5: #e0e0e0;
+    --bw6: #EFEFEF;
+    --contrast: #171938;
+    --contrastLight: #232657;
+    --contrastLighter: #c3c8f3;
+    --noirblanc1: #f5f3f4;
+    --textColor: #2f2f2f;
+    --textColorAccent: #2f2f2f;
+    --textColorInvert: #191919;
+    --boutons: #d7667c;
+    --couleur1: 
+ color-mix(in srgb, var(--co1) 100%, var(--textColor));
+    --couleur2: 
+ color-mix(in srgb, var(--co2) 100%, var(--textColor));
+    --couleur3: 
+ color-mix(in srgb, var(--co3) 100%, var(--textColor));
+    --co1: #9bcee3;
+    --co2: #dbcc9d;
+    --co3: #f3e0a7;
+    --version: 'V.13.0';
+    --pacrimepercent: 60%;
+    --patrustpercent: 80%;
+    --mdm1-name: 'soo daehyun';
+    --mdm1-gif: url(https://64.media.tumblr.com/d0879e9…/b4ce1fbb264178fb-8d/s400x600/b3ffbc3….gif);
+    --mdm2-name: 'baek jaeni';
+    --mdm2-gif: url(https://64.media.tumblr.com/5cac5be…/7be8d73ca7b91950-b4/s400x600/b9b1a54….gif);
+    --mdm3-name: 'reflec.ta';
+    --mdm3-gif: url(https://images2.imgbox.com/93/e7/DXQ7xJOk_o.gif);
+    --undigif: url(https://i.imgur.com/YDVD2tU.png);
+    --kujagif: url(https://i.imgur.com/tdLeuHM.png);
+    --hanagif: url(https://i.imgur.com/8T3hY6D.png);
+    --sesamegif: url(https://i.imgur.com/MNKpXXg.png);
+    --lalkagif: url(https://i.imgur.com/oY8MIHu.png);
+--mariongif: url(https://i.imgur.com/LPCHXdK.png);
+    --myrgif: url(https://i.imgur.com/SK63BY4.png);
+    --group1: #ddbc6f;
+    --group2: #98b8c9;
+    --group3: #d94e68;
+    --gst: #bf98dc, #95b6db, #a1dfc9;
+    --ge: linear-gradient(45deg, #bea05a, #d2bf93);
+    --ge1: #bea05a, #d2bf93;
+    --gm: linear-gradient(45deg, #bf465c, #c69ea5);
+    --gm1: #bf465c, #c69ea5;
+    --gs: linear-gradient(45deg, #829ead, #a8b2b6);
+    --gs1: #829ead, #a8b2b6;
+    --ten: #D1BB7B;
+    --s-class: #A278BA;
+    --a-class: #6588B2;
+    --b-class: #56BA90;
+    --c-class: #C385B0;
+    --t-class: #599E9E;
+    --v-class: #C15D78;
+    --x-class: #E89565;
+    --h-class: #9C9C9C;
+    --groupecolor: var(--couleur1);
+    --rankcolor: var(--couleur3);
+    --little-size: 12px;
+    --normal-size: 13px;
+    --medium-size: 16px;
+    --large-size: 18px;
+    --title-size: 22px;
+    --font: "Poppins";
+    --titlefont: 'Wasted Vindey';
+    --titlefont2: 'blindinglightsregular';
+    --stfont: 'Anonymous Pro';
+    --font1: 'Inter', sans-serif;
+    --font2: 'Lato', sans-serif;
+    --font3: 'Josefin Sans', sans-serif;
+    --font4: 'Bodoni Moda', serif;
+    --font5: 'Playfair Display', serif;
+    --gradientcate: linear-gradient(100deg, var(--couleur1), var(--couleur2), var(--couleur3));
+    --gradient: var(--couleur1), var(--couleur2), var(--couleur3);
+    --gradient3: linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
+    --g4: #b16dcd, #c288b8;
+    --g5: linear-gradient(45deg, #b16dcd, #ff8ac1);
+    --accentClr: var(--couleur1);
+    --accentClrDark:  color-mix(in srgb, var(--accentClr), var(--neutral));
+    --noirnoir: #191919;
+    --border: 1px solid var(--bw3);
+}
+:root {
+    --heartmessage1: url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png);
+}
+
+[data-color-scheme="dark"] {
+    color-scheme: dark;
+    --couleur1: 
+ color-mix(in srgb, var(--co1) 80%, var(--textColor));
+    --couleur2: 
+ color-mix(in srgb, var(--co2) 80%, var(--textColor));
+    --couleur3: 
+ color-mix(in srgb, var(--co3) 80%, var(--textColor));
+    --neutral: #1e1e1e;
+    --neutralDark: #1e1e1e;
+    --neutralDarker: #191919;
+    --transp2: #1e1e1ea3;
+    --transp3: #ededed2e;
+    --transp5: #1e1e1ed9;
+    --transp6: #e5e5f078;
+    --transp7: #1e1e1eeb;
+    --transp8: #111111;
+    --transp9: #1717178a;
+    --transp10: #1a1a1adb;
+    --bw1: #1e1e1e;
+    --bw2: #1a1a1a;
+    --bw3: #121212;
+    --bw4: #0d0d0d;
+    --bw5: #232323;
+    --bw6: #232323;
+    --contrast: #171938;
+    --contrastLight: #232657;
+    --contrastLighter: #c3c8f3;
+    --textColor: #bfbaba;
+    --textColorAccent: #d9d9d9;
+    --textColorInvert: #fefefe;
+    --noirblanc1: #342a36;
 }
   
