@@ -50,18 +50,23 @@ margin-left:auto;
   color:var(--textColor);
 }
 
+.note-avatar {
+  width:200px;
+  height:310px;
+} 
+
 .note-avatar img {
   width:200px;
   border:6px solid var(--bw5);
 }
 
 .avatar-hover {
-  width:189px;
-  height:302px;
+  width:200px;
+  height:313px;
   background-color:transparent;
   position:absolute;
-  top:5px;
-  left:36px;
+  top:0;
+  left:34px;
   transition:ease-in-out .3s;
   display:grid;
   opacity:0;
