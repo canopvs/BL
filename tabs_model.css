@@ -216,7 +216,7 @@ hi {
   display:flex;
   margin-left:auto;
   margin-right:auto;
-  justify-content:space-evenly;
+  justify-content:center;
   bottom:-30px;
 }
 
@@ -225,6 +225,7 @@ hi {
   border-radius:20px;
   border:1px solid ;
   color:var(--textColor);
+  margin:0 5px 0 0;
 }
 
 .pages-note label:hover {
