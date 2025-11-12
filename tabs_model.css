@@ -104,9 +104,9 @@ margin-left:auto;
   font-family:var(--font);
   color:var(--textColor);
   font-size:24px;
-  background-color:color-mix(in srgb, var(--co1) 20%, transparent);
+  background-color:color-mix(in srgb, var(--couleur1) 20%, transparent);
   padding:4px 10px;
-  border-right:3px solid var(--co1)
+  border-right:3px solid var(--couleur1)
 }
 
 bb {
